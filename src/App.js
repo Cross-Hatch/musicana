@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       {
-        token ? (<h1>I am logged in</h1>) : (<Login />)
+        token ? <Player /> : <Login />
       }
     </div>
   );
