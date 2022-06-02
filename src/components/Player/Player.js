@@ -1,8 +1,17 @@
 import './Player.css';
+import Sidebar from '../Sidebar/Sidebar'
+import Body from '../Body/Body';
+import Footer from '../Footer/Footer';
 
 function Player({ spotify }) {
   return (
-    <div>Welcome to spotify</div>
+    <div className='player'>
+        <div className='player_body'>
+            <Sidebar />
+            <Body />
+        </div>
+        <Footer />
+    </div>
   )
 }
 
